@@ -1,0 +1,51 @@
+                              Linux CLI
+
+Linux
+Mudar diretorio = cd
+Voltar diretorio = cd ..
+Remover pasta = rm -rf
+ 
+ Permissao de pasta 
+    Tipos de usuarios 
+    user = u
+    other= o
+    general = g
+    -----------------
+    add permissao = +
+    remove permissao = -
+
+    ex: chmod u+wrx NomePasta  
+
+ls = lima tela 
+crl + l = limpa tela
+killall -9 NomePorta= mata sessao aberta 
+Ctrl + alt + t = abre erminal 
+Ctrl + shift + w = fecha o erminal 
+
+
+
+
+                               Git CLI
+
+Log dos ultimos commit = git log
+Log e ultimas alteracoes = git log -p
+Ver alterações =  git status
+Reverter modificacao = git checkout -- <nomeArquivo>
+Adicionar arquivos = git add
+Reverter git add  = git reset HEAD <nomeArquivo>
+Commitar arquivos para o repositorio = git commit -m <nomeArquivo>
+Subir arquivo no repositoio = git push origin <nomeRepo>
+Voltar versao = git log , git checkout <EscrevaOLog>
+Ver todas as branchs locais= git branch
+Ver branchs do repo = git ls-remote branch
+Adicionar branch local = git checkout -b <nomeDaBranch>
+Remover branch local = git branch -D <nomeDaBranch>
+Valtar commit com base no numero= git reset HEAD~1 --hard
+Mudar de branch = git checkout --  <nomeBranch>
+Mesclar branchs = git merge <nomeBranch>
+Mesclar branchs de forma local = git rebase <nomeBranch>
+Criando tag = git tad <nomeTag>
+ver nome da tag = git tag -l
+Suber nova versao = git push origin --tags
+Add nova branch remota = git remote add <Caminho>
+ 
