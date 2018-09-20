@@ -59,3 +59,9 @@ command -v nvm
 nvm install node
 nvm ls
 
+Install NODE.JS
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+sudo apt install nodejs
+node --version
+
