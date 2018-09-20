@@ -49,3 +49,13 @@ ver nome da tag = git tag -l
 Suber nova versao = git push origin --tags
 Add nova branch remota = git remote add <Caminho>
  
+
+Install NVM
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+command -v nvm
+source ~/.bashrc
+command -v nvm
+nvm install node
+nvm ls
+
