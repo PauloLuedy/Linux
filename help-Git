@@ -1,0 +1,43 @@
+git init nós conseguimos criar um repositório Git local
+git status Como analisar o estado do nosso repositório através do comando 
+git add Como adicionar arquivos para serem commitados com ;
+git commit Como commitar arquivos, utilizando o comando ;
+git push subir mudanças
+git pull pegar mudanças
+
+Como verificar o histórico de commits, através do git log e algumas de suas opções:
+git log --oneline
+git log -p
+git log --pretty="parametros de formatação"
+
+Git não monitorar arquivos, através do arquivo .gitignore 
+git clone /c/Users/ALURA/Documents/git-e-github/servidor, para que sejam trazidos os dados do repositório localizado neste endereço
+git remote -v, que faz com que o endereço de local seja exibido.
+git checkout master para retornarmos à branch correspondente.
+git checkout -b lista cria um branch e já passar para eleas mudanças
+git diff, vemos as alterações em nossos arquivos
+git cherry-pick pode trazer um commit específico para a branch atual;
+git bisect Como encontrar o commit em que determinada alteração foi aplicada;
+git blame Como encontrar o responsável por determinada linha ou bloco de código ;
+Que jamais devemos apontar um culpado por determinado bug. Uma equipe deve ser unida e se ajudar;
+Que o comando git show {hash} mostra todas as alterações aplicadas pelo commit com o hash informado.
+git branch -d {nome_branch} remove uma branch que já tem seu trabalho unido à branch atual;
+git branch -D {nome_branch} remove uma branch mesmo que os commits desta branch ainda não estejam na branch atual, ou seja, força a remoção;
+Log dos ultimos commit = git log
+Log e ultimas alteracoes = git log -p
+Reverter modificacao = git checkout -- <nomeArquivo>
+Reverter git add  = git reset HEAD <nomeArquivo>
+Commitar arquivos para o repositorio = git commit -m <nomeArquivo>
+Subir arquivo no repositoio = git push origin <nomeRepo>
+Voltar versao = git log , git checkout <EscrevaOLog>
+Ver todas as branchs locais= git branch
+Ver branchs do repo = git ls-remote branch
+Adicionar branch local = git checkout -b <nomeDaBranch>
+Remover branch local = git branch -D <nomeDaBranch>
+Valtar commit com base no numero= git reset HEAD~1 --hard
+Mudar de branch = git checkout --  <nomeBranch>
+Mesclar branchs = git merge <nomeBranch>
+Mesclar branchs de forma local = git rebase <nomeBranch>
+Criando tag = git tad <nomeTag>
+ver nome da tag = git tag -l
+Add nova branch remota = git remote add <Caminho>
