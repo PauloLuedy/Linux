@@ -21,6 +21,101 @@ crl + l = limpa tela
 killall -9 NomePorta= mata sessao aberta 
 Ctrl + alt + t = abre erminal 
 Ctrl + shift + w = fecha o erminal 
+alias: cria um alias;
+sudo apt-get: busca e instala pacotes de software (Debian/Ubuntu);
+sudo aptitude: busca e instala pacotes de software (Debian/Ubuntu);
+bash: GNU Bourne-Again SHell;
+break: sair de um loop;
+cal: Mostrar um calendario;
+case: Executar um comando de forma condicionada;
+cat: Concatenar e exibir (na tela) o conteúdo de um ou mais arquivos;
+cd: Trocar de diretório;
+cfdisk: Gestor de Tabelas de Partição para Linux;
+chgrp: Alterar a associação de um grupo;
+chmod: Alterar permissões de acesso;
+chown: Alterar o dono e o grupo de um arquivo;
+clear: Limpar a tela do terminal;
+cmp: Comparar dois arquivos;
+comm: Comparar dois arquivos ordenados linha por linha;
+command: Execute um comando – ignorando as funções do shell;
+cp: Copia um ou mais arquivos para outro local ou rota;
+cron: daemon para executar comandos programados ou programados;
+crontab: Horário ou agendar a execução de um comando para um tempo específico;
+csplit: dividir um arquivo em partes determinadas pelo contexto;
+cut: dividir um arquivo em várias partes.
+date: mostrar ou alterar a data e hora;
+dc: calculadora;
+df: Mostrar o espaço livre em disco;
+diff: Mostrar diferenças entre dois arquivos;
+diff3: Mostrar a diferença entre três arquivos;
+dir: lista de diretórios brevemente conteúdo;
+dirname: Converte um nome de caminho completo em apenas uma rota;
+dirs: mostra uma lista de diretórios acessados;
+du: Estima o espaço ocupado pelo arquivo.
+echo: Exibe uma mensagem na tela;
+grep: Pesquisa em arquivo(s) para as linhas que correspondem a uma expressão estendida ex grep "Lorem" teste.txt;
+eject: Ejeta mídia removível;
+env: Variáveis de ambiente;
+ethtool: Configuração de interface Ethernet;
+exit: Sai do shell;
+export: Definir uma variável de ambiente;
+false: sem sucesso, falsa;
+fdisk: manipula partição de tabelas para Linux;
+file: determina o(s) tipo(s) de arquivo;
+find: encontra arquivos que correspondem a um critério desejado;
+free: mostra o uso da memória
+gzip: comprime ou descompacta os arquivos nomeados.
+head: exibe a primeira parte de um ou mais arquivos
+help: exibe a ajuda de um comando integrado ao sistema.
+history: exibe o histórico dos comandos executados
+hostname: Imprime ou define o nome do sistema.
+import: capturar uma tela do servidor X e salvar a imagem em um arquivo
+kill: interrompe um processo em execução
+killall: para processos por nome.
+logout: sai de uma sessão do shell.
+lprint: imprime um arquivo
+lprintd: aborta um trabalho de impressão
+lprintq: listar a fila de impressão
+lprm: remover trabalhos da fila de impressão
+ls: listar informações sobre os arquivos
+lsof: listar os arquivos abertos.
+mkdir: criar um diretório
+mtr: diagnosticar redes (traceroute/ping)
+mv: mover ou renomear arquivos ou diretórios
+MMV: mover ou renomear arquivos ou diretórios massivamente
+netstat: dar informações da rede
+passwd: alterar a senha de um usuário
+ping: teste a conexão de rede
+pkill: parar a execução de um processo
+pwd: imprime o diretório atual.
+reboot: reinicie o sistema
+rename: renomear arquivos
+rm: remove arquivo(s)
+rmdir: remover diretório(s)
+rsync: copiar arquivos local ou remotamente para sincronizar diretórios
+scp: copiar arquivos remotamente de forma segura (usando ssh)
+sdiff: mescla arquivos interativamente
+shutdown: desligar ou reiniciar o Linux
+slocate: localizar arquivos
+split: dividir um arquivo em partes de um determinado tamanho
+ssh: cliente SSH (Secure Client Shell) para chamar programas remotamente
+su: alterar o ID do usuário ou tornar-se superusuário (root)
+sudo: executa um comando como outro usuário
+tail: Mostra a última parte de um arquivo
+tar: Tape ARchiver – compacta e descompacta arquivos
+tee: redirecionar a saída a vários arquivos
+touch: alterar a hora do registro de uso de um arquivo
+top: listar os processos em execução no sistema e os recursos utilizados
+unalias: remove um alias.
+uniq: remove linhas duplicadas nos arquivos listados
+useradd: criar uma nova conta de usuário
+userdel: exclui uma conta de usuário
+usermod:  modifica uma conta de usuário
+users: lista usuários atualmente conectados ao sistema
+vi: editor de texto
+gedit : editor de texto
+who:  mostra todos os usuários conectados ao sistema
+write: enviar uma mensagem para outro usuário.
 
 
 
